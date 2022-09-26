@@ -1,0 +1,87 @@
+@media (max-width: 1320px) {
+	.mail {
+		width: 350px;
+	}
+}
+
+@media (max-width: 1270px) {
+	.img {
+		width: 500px;
+		height: 690px;
+	}
+	.container {
+		overflow: hidden;
+	}
+}
+
+@media (max-width: 1160px) {
+	.content-main {
+		padding: 50px 70px 120px;
+	}
+}
+
+@media (max-width: 1050px) {
+	.img {
+		width: 480px;
+		height: 670px;
+	}
+}
+
+@media (max-width: 1020px) {
+	.mail {
+		width: 300px;
+	}
+}
+
+@media (max-width: 950px) {
+	.img {
+		display: none;
+	}
+	.main-img {
+		background-image: url(.././images/hero-mobile.jpg);
+		background-repeat: no-repeat;
+		height: 250px;
+		margin-bottom: 70px;
+	}
+	.mail {
+		border-top-right-radius: 50px;
+		border-bottom-right-radius: 50px;
+	}
+	.content {
+		max-width: 375px;
+	}
+	.content-main {
+		padding: 0;
+	}
+	.logo {
+		padding: 30px;
+		margin: 0;
+	}
+	.logo img {
+		width: 100px;
+	}
+	.title {
+		text-align: center;
+		font-size: 40px;
+	}
+	.subtitle {
+		text-align: center;
+		font-size: 40px;
+		line-height: 1.1;
+		margin-bottom: 20px;
+	}
+	.content-main p {
+		text-align: center;
+		padding: 0 30px;
+		font-size: 14px;
+	}
+	.btn {
+		padding: 0 30px;
+		justify-content: center;
+		margin-bottom: 40px;
+	}
+	.input {
+		transform: translateX(-27px);
+		width: 60px;
+	}
+}
