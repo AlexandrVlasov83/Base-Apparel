@@ -70,7 +70,7 @@
 		line-height: 1.1;
 		margin-bottom: 20px;
 	}
-	.content-main p {
+	.main-subtitle {
 		text-align: center;
 		padding: 0 30px;
 		font-size: 14px;
@@ -78,10 +78,24 @@
 	.btn {
 		padding: 0 30px;
 		justify-content: center;
-		margin-bottom: 40px;
+		margin-bottom: 0;
 	}
 	.input {
 		transform: translateX(-27px);
 		width: 60px;
+	}
+	.input:active {
+		transform: translateX(-25px);
+	}
+	.mail:focus, .mail:hover {
+		font-size: 19px;
+		padding: 12px 0 12px 20px;
+	}
+	.info-error {
+		padding-left: 53px;
+		margin-bottom: 30px;
+	}
+	.icon-error {
+		transform: translateX(-50px);
 	}
 }
